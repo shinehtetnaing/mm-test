@@ -3,11 +3,7 @@ import { styled, useTheme } from "@mui/material/styles";
 
 // Icons
 import MenuIcon from "@mui/icons-material/Menu";
-import {
-  ChevronLeft,
-  ChevronRight,
-  Logout,
-} from "@mui/icons-material";
+import { ChevronLeft, ChevronRight, Logout } from "@mui/icons-material";
 
 // Mui Components
 import {
@@ -193,7 +189,6 @@ export default function Layout() {
         <Sidebar />
       </Drawer>
       <Main open={open}>
-        <DrawerHeader />
         <Outlet />
       </Main>
     </Box>
